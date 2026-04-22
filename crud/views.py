@@ -20,7 +20,7 @@ def home(request):
         'data':data
     }
 
-    
+     
     return render(request, "home.html", context)
 
 def edit(request, id):
